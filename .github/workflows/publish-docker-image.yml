@@ -23,4 +23,4 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: ${{ secrets.DOCKERHUB_ACCOUNT }}/rndnum:{{ github.ref_name }}
+        tags: user/app:latest
